@@ -17,23 +17,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
 
-// Components
-// import NavbarComponent from './components/Navbar/NavbarComponent.js';
-// import FooterComponent from './components/Footer/FooterComponent.js';
-
-// Containers
-// import LandingPage from './containers/LandingPage/LandingPage.js';
-// import BidListPage from './containers/BidListPage/BidListPage.js';
-// import RetainerContractPage from './containers/RetainerContractPage/RetainerContractPage';
-// import ClientDashboard from './containers/ClientDashboard/ClientDashboard.js';
-// import IntakeMeetingPage from './containers/IntakeMeetingPage/IntakeMeetingPage.js';
-// import WorkroomPage from './containers/WorkroomPage/WorkroomPage.js';
-// import LawyerDashboard from './containers/LawyerDashboard/LawyerDashboard';
-// import PaymentPage from './containers/PaymentPage/PaymentPage.js';
-// import IntakeForm from './containers/IntakeForm/IntakeForm.js';
-// import LoginPage from './containers/LoginPage/LoginPage.js';
-// import SignUp from './containers/LoginPage/SignUp.js';
-
 // Need to introduce routing later, to figure out which containers
 // to display
 
