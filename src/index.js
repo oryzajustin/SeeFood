@@ -16,6 +16,11 @@ import './index.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import HomePage from './Containers/HomePage';
+import NavbarComponent from './Components/Navbar/NavbarComponent';
+import Menu from './Containers/Menu';
+import AboutUs from './Containers/AboutUs'
+// import First from './Containers/First';
 
 // Need to introduce routing later, to figure out which containers
 // to display
@@ -27,7 +32,12 @@ const App = (props) => {
 	return(
 		<Router>
 			<div>
-				Test
+				<NavbarComponent/>
+				<Switch>
+					<Route exact path="/" component={HomePage}/>
+					<Route exact path="/Menu" component={Menu}/>
+					<Route exact path="/AboutUs" component={AboutUs}/>
+				</Switch>
 			</div>
 		</Router>
 	);
