@@ -1,0 +1,19 @@
+html, body, #app {
+  height: 100%;
+}
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Lawyerly dark green #008043 */
+.button.is-success {
+    background-color: #008043;
+    border-color: transparent;
+    color: #fff;
+}
+
+a, a:hover {
+  color: inherit;
+}

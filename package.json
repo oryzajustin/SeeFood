@@ -1,0 +1,29 @@
+{
+  "name": "see-food",
+  "version": "1.0.0",
+  "description": "Hack Western 5",
+  "private": true,
+  "scripts": {
+    "build": "nwb build-react-app",
+    "clean": "nwb clean-app",
+    "start": "nwb serve-react-app",
+    "test": "nwb test-react",
+    "test:coverage": "nwb test-react --coverage",
+    "test:watch": "nwb test-react --server",
+    "deploy": "nwb build-react-app && gh-pages -d dist"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "bloomer": "^0.6.3",
+    "bulma": "^0.6.2",
+    "gh-pages": "^1.1.0",
+    "nwb": "0.21.x",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2"
+  },
+  "author": "",
+  "license": "MIT",
+  "repository": ""
+}
